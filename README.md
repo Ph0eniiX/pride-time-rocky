@@ -1,5 +1,5 @@
 # pride-time-rocky
-A pride flag watchfaces, with many flags to choose from and a few customizable options.
+A pride flag watchface, with many flags to choose from and a few customizable options.
 
 Yeah I made this in rocky.js before I knew rocky.js isn't exactly completed...
 
