@@ -1,0 +1,43 @@
+{
+  "name": "pride-time",
+  "author": "Nicki",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "pebble": {
+    "main": {
+      "rockyjs": "src/rocky/index.js",
+      "pkjs": "src/pkjs/index.js"
+    },
+    "displayName": "Pride Time",
+    "uuid": "c2785e78-0302-4f0f-9ce9-b32f38b20f2c",
+    "projectType": "rocky",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "basalt"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    },
+    "capabilities": [
+      "configurable"
+    ]
+  },
+  "messageKeys": [
+    "Fullscreen",
+    "Flag",
+    "DropShadowText",
+    "ZeroInHour",
+    "MilitaryTime",
+    "Background",
+    "TextColorMain",
+    "TextColorAccent",
+    "EnableDate"
+  ]
+}

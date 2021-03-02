@@ -1,0 +1,160 @@
+[
+    {
+        "type": "section",
+        "items": [
+            {
+                "type": "heading",
+                "defaultValue": "Pride Time"
+            },
+            {
+                "type": "text",
+                "defaultValue": "1.0"
+            }
+        ]
+    },
+    {
+        "type": "section",
+        "items": [
+            {
+                "type": "heading",
+                "defaultValue": "Colors"
+            },
+            {
+                "type": "color",
+                "messageKey": "Background",
+                "label": "Background Color",
+                "defaultValue": "0x000000",
+                "allowGray": "true"
+            },
+            {
+                "type": "color",
+                "messageKey": "TextColorMain",
+                "defaultValue": "0xFFFFFF",
+                "label": "Main Text Color",
+                "allowGray": "true"
+            },
+            {
+                "type": "color",
+                "messageKey": "TextColorAccent",
+                "defaultValue": "0xAAAAAA",
+                "label": "Accent Text Color",
+                "allowGray": "true"
+            }
+        ]
+    },
+    {
+        "type": "section",
+        "items": [
+            {
+                "type": "heading",
+                "defaultValue": "Other Settings"
+            },
+            {
+                "type": "select",
+                "messageKey": "Flag",
+                "defaultValue": "pride",
+                "label": "Pride Flag",
+                "options": [
+                    {
+                        "label": "None (Use Background Color)",
+                        "value": "none"
+                    },
+                    {
+                        "label": "Pride",
+                        "value": "pride"
+                    },
+                    {
+                        "label": "Philadelphia Pride",
+                        "value": "phillypride"
+                    },
+                    {
+                        "label": "Transgender",
+                        "value": "trans"
+                    },
+                    {
+                        "label": "Bisexual",
+                        "value": "bi"
+                    },
+                    {
+                        "label": "Lesbian",
+                        "value": "lesbian"
+                    },
+                    {
+                        "label": "Pansexual",
+                        "value": "pansexual"
+                    },
+                    {
+                        "label": "Asexual",
+                        "value": "asexual"
+                    },
+                    {
+                        "label": "Aromantic",
+                        "value": "aromantic"
+                    },
+                    {
+                        "label": "Polyamory",
+                        "value": "polyamory"
+                    },
+                    {
+                        "label": "Nonbinary",
+                        "value": "enby"
+                    },
+                    {
+                        "label": "Demigirl",
+                        "value": "demigirl"
+                    },
+                    {
+                        "label": "Demiboy",
+                        "value": "demiboy"
+                    },
+                    {
+                        "label": "Agender",
+                        "value": "agender"
+                    },
+                    {
+                        "label": "Genderfluid",
+                        "value": "genderfluid"
+                    },
+                    {
+                        "label": "Genderqueer",
+                        "value": "genderqueer"
+                    }
+                ]
+            },
+            {
+                "type": "toggle",
+                "messageKey": "Fullscreen",
+                "label": "Enable Fullscreen",
+                "defaultValue": "true"
+            },
+            {
+                "type": "toggle",
+                "messageKey": "EnableDate",
+                "label": "Enable Date",
+                "defaultValue": "false"
+            },
+            {
+                "type": "toggle",
+                "messageKey": "DropShadowText",
+                "label": "Enable a Drop Shadow on Time",
+                "defaultValue": "true"
+            },
+            {
+                "type": "toggle",
+                "messageKey": "ZeroInHour",
+                "label": "Enable Zero in Front of Hour",
+                "defaultValue": "false"
+            },
+            {
+                "type": "toggle",
+                "messageKey": "MilitaryTime",
+                "label": "Enable 24h Time",
+                "defaultValue": "false"
+            }
+        ]
+    },
+    {
+        "type": "submit",
+        "defaultValue": "Save"
+    }
+]
